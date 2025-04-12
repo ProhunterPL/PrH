@@ -1,0 +1,6 @@
+streamlit
+json
+pathlib
+openai
+dotenv
+os
