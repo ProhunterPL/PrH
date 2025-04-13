@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 import streamlit as st
 from openai import OpenAI
-from dotenv import dotenv_values
-from dotenv import load_dotenv
+from python-dotenv import dotenv_values
+from python-dotenv import load_dotenv
 import os
 
 
