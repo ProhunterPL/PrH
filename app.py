@@ -3,7 +3,7 @@ from pathlib import Path
 import streamlit as st
 from openai import OpenAI
 #from python-dotenv import dotenv_values
-from python-dotenv import load_dotenv
+#from python-dotenv import load_dotenv
 import os
 
 
