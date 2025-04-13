@@ -46,7 +46,7 @@ if st.session_state.logged_in:
 
     #env = dotenv_values(".env")
 
-    openai_client = OpenAI(api_key=env["OPENAI_API_KEY"])
+    openai_client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
     st.title("🎉 Super chat GPT ")
     
 
