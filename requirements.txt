@@ -1,5 +1,5 @@
 streamlit
 pathlib
 openai
-dotenv
-os
+python-dotenv
+
