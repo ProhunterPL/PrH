@@ -44,7 +44,7 @@ if st.session_state.logged_in:
     USD_TO_PLN = 3.97
     PRICING = model_pricings[MODEL]
 
-    env = dotenv_values(".env")
+    #env = dotenv_values(".env")
 
     openai_client = OpenAI(api_key=env["OPENAI_API_KEY"])
     st.title("🎉 Super chat GPT ")
