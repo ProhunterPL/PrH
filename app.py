@@ -8,7 +8,7 @@ import os
 
 
 
-load_dotenv()  # Załaduj zmienne z .env
+#load_dotenv()  # Załaduj zmienne z .env
 
 CORRECT_PASSWORD = os.getenv("CORRECT_PASSWORD")
 
